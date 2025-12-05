@@ -1,55 +1,66 @@
-# [PROJECT_NAME] Constitution
-<!-- Example: Spec Constitution, TaskFlow Constitution, etc. -->
+<!--
+<Sync Impact Report>
+Version change: none -> 1.0.0 (initial creation)
+Modified principles: All principles are new.
+Added sections: Core Principles, Project Requirements & Success Criteria, Governance.
+Removed sections: none
+Templates requiring updates:
+- .specify/templates/plan-template.md ⚠ pending
+- .specify/templates/spec-template.md ⚠ pending
+- .specify/templates/tasks-template.md ⚠ pending
+- .specify/templates/commands/*.md ⚠ pending
+Follow-up TODOs: none
+</Sync Impact Report>
+-->
+# The Definitive Textbook on Physical AI & Humanoid Robotics Constitution
 
 ## Core Principles
 
-### [PRINCIPLE_1_NAME]
-<!-- Example: I. Library-First -->
-[PRINCIPLE_1_DESCRIPTION]
-<!-- Example: Every feature starts as a standalone library; Libraries must be self-contained, independently testable, documented; Clear purpose required - no organizational-only libraries -->
+### I. Docusaurus + Spec-Kit Plus Foundation
+The entire site MUST be built using Docusaurus 3.x and Spec-Kit Plus (latest version). Every chapter MUST use Spec-Kit Plus interactive components (code playgrounds, quizzes, collapsible sections, diagrams, etc.).
 
-### [PRINCIPLE_2_NAME]
-<!-- Example: II. CLI Interface -->
-[PRINCIPLE_2_DESCRIPTION]
-<!-- Example: Every library exposes functionality via CLI; Text in/out protocol: stdin/args → stdout, errors → stderr; Support JSON + human-readable formats -->
+### II. GitHub Pages Deployment
+The project MUST be fully deployed and live on GitHub Pages.
 
-### [PRINCIPLE_3_NAME]
-<!-- Example: III. Test-First (NON-NEGOTIABLE) -->
-[PRINCIPLE_3_DESCRIPTION]
-<!-- Example: TDD mandatory: Tests written → User approved → Tests fail → Then implement; Red-Green-Refactor cycle strictly enforced -->
+### III. Content & Structure
+Book content to be structured in 4 modules, totaling ~700 pages, progressing from absolute beginner to professional/research level. Difficulty must be clearly marked (🟢 Beginner, 🟡 Intermediate, 🔴 Professional). All content MUST be 100% original OR properly cited open-source material. Use MDX for chapters with embedded React components where needed.
 
-### [PRINCIPLE_4_NAME]
-<!-- Example: IV. Integration Testing -->
-[PRINCIPLE_4_DESCRIPTION]
-<!-- Example: Focus areas requiring integration tests: New library contract tests, Contract changes, Inter-service communication, Shared schemas -->
+### IV. Quality & Performance
+The site MUST be responsive, dark mode enabled, fast loading, and SEO optimized. The repository MUST be clean, have a well-documented README, and follow Spec-Kit Plus conventions.
 
-### [PRINCIPLE_5_NAME]
-<!-- Example: V. Observability, VI. Versioning & Breaking Changes, VII. Simplicity -->
-[PRINCIPLE_5_DESCRIPTION]
-<!-- Example: Text I/O ensures debuggability; Structured logging required; Or: MAJOR.MINOR.BUILD format; Or: Start simple, YAGNI principles -->
+### V. Tech Stack Adherence
+The project MUST strictly adhere to the following tech stack: Docusaurus 3.x, Spec-Kit Plus (latest version), Tailwind CSS (already in Spec-Kit Plus), GitHub Pages deployment. Optional technologies include Typescript and shadcn/ui components via Spec-Kit Plus.
 
-### [PRINCIPLE_6_NAME]
+## Project Requirements & Success Criteria
 
+### Key Requirements & Constraints:
+- Entire site built using Docusaurus 3.x + Spec-Kit Plus
+- Fully deployed and live on GitHub Pages
+- Every chapter must use Spec-Kit Plus interactive components (code playgrounds, quizzes, collapsible sections, diagrams, etc.)
+- Progressive difficulty: clearly marked 🟢 Beginner, 🟡 Intermediate, 🔴 Professional
+- Integrated RAG chatbot (bonus) that can answer questions from the entire book content
+- Responsive, dark mode, fast loading, SEO optimized
+- All content 100% original OR properly cited open-source material
+- Repository must be clean, well-documented README, and follow Spec-Kit Plus conventions
+- Use MDX for chapters with embedded React components where needed
+- Hindi + English bilingual support is a bonus but not mandatory
 
-[PRINCIPLE__DESCRIPTION]
+### Tech Stack (non-negotiable):
+- Docusaurus 3.x
+- Spec-Kit Plus (latest version)
+- Tailwind CSS (already in Spec-Kit Plus)
+- GitHub Pages deployment
+- Optional: Typescript, shadcn/ui components via Spec-Kit Plus
 
-## [SECTION_2_NAME]
-<!-- Example: Additional Constraints, Security Requirements, Performance Standards, etc. -->
-
-[SECTION_2_CONTENT]
-<!-- Example: Technology stack requirements, compliance standards, deployment policies, etc. -->
-
-## [SECTION_3_NAME]
-<!-- Example: Development Workflow, Review Process, Quality Gates, etc. -->
-
-[SECTION_3_CONTENT]
-<!-- Example: Code review requirements, testing gates, deployment approval process, etc. -->
+### Success Criteria for 300/300:
+- Live URL working perfectly on GitHub Pages
+- At least 60% of the book content completed (Module 1 + Module 2 fully, Module 3 & 4 skeleton + 2–3 chapters each)
+- Every chapter has at least 3 Spec-Kit Plus interactive elements
+- Clean, production-ready codebase
+- Bonus points: RAG chatbot, progress tracking, certificates, beautiful diagrams
 
 ## Governance
-<!-- Example: Constitution supersedes all other practices; Amendments require documentation, approval, migration plan -->
 
-[GOVERNANCE_RULES]
-<!-- Example: All PRs/reviews must verify compliance; Complexity must be justified; Use [GUIDANCE_FILE] for runtime development guidance -->
+All future /sp.specify, /sp.plan, /sp.task, and /sp.implementation commands must strictly align with this constitution. Constitution supersedes all other project practices and documentation. Amendments require documentation, approval, and a migration plan if impactful.
 
-**Version**: [CONSTITUTION_VERSION] | **Ratified**: [RATIFICATION_DATE] | **Last Amended**: [LAST_AMENDED_DATE]
-<!-- Example: Version: 2.1.1 | Ratified: 2025-06-13 | Last Amended: 2025-07-16 -->
+**Version**: 1.0.0 | **Ratified**: 2025-12-05 | **Last Amended**: 2025-12-05
