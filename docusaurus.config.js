@@ -10,12 +10,12 @@ const config = {
   url: 'https://Sherkhan369.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/Physical-AI-Humanoid-Robotics/',
+    baseUrl: '/physical-ai-humanoind-robotic/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'Sherkhan369', // Usually your GitHub org/user name.
-  projectName: 'Physical-AI-Humanoid-Robotics', // Usually your repo name.
+    projectName: 'physical-ai-humanoind-robotic', // Usually your repo name.
   trailingSlash: false,
 
   onBrokenLinks: 'throw',
@@ -53,6 +53,19 @@ const config = {
         },
       }),
     ],
+  ],
+
+  plugins: [
+    async function tailwindcssPlugin(context, options) {
+      return {
+        name: 'docusaurus-tailwindcss',
+        configurePostCss(postcssOptions) {
+          postcssOptions.plugins.push(require('tailwindcss'));
+          postcssOptions.plugins.push(require('autoprefixer'));
+          return postcssOptions;
+        },
+      };
+    },
   ],
 
   themeConfig:

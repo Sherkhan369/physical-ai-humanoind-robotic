@@ -32,8 +32,8 @@ description: "Task list for Physical AI & Humanoid Robotics Textbook"
 - [x] T001 Initialize Docusaurus 3.x project (command line setup)
 - [x] T002 Configure `docusaurus.config.js` for basic site metadata and GitHub Pages deployment.
 - [x] T003 Set up `sidebars.js` for initial 4-module structure.
-- [ ] T004 Install Spec-Kit Plus and other project dependencies via `package.json`.
-- [ ] T005 Configure Tailwind CSS (`tailwind.config.js`).
+- [x] T004 Install Spec-Kit Plus and other project dependencies via `package.json`.
+- [x] T005 Configure Tailwind CSS (`tailwind.config.js`).
 - [ ] T006 Create initial `README.md` and `.gitignore`.
 - [ ] T007 Set up basic GitHub Actions workflow for automated deployment to GitHub Pages.
 

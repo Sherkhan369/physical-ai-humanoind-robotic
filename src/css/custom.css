@@ -1,0 +1,9 @@
+/**
+ * Any CSS you import will be bundled into a single `.css` file (e.g. apps.css in Docusaurus source code).
+ *
+ * If you want to share CSS between different components, you should create a file in `./src/css/` and import it there.
+ */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
